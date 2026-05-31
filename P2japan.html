@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปแกรมเปลี่ยนค่าเงิน</title>
+    <link rel="stylesheet" href="stylesJP.css"> <!-- ไฟล์ตกแต่ง -->
+    <script src="scriptJP.js"></script> <!-- เชื่อมไฟล์ js -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="head1"> <!-- titled -->
+            <div class="circle-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGh1krpJ88BPrPfUg6ngNvr4JkGUoi94H0A&s" alt="logo" width="40" height="40" style="padding-right: 0.5rem; padding-bottom: 0.25rem;">
+            </div>
+            <h1 class="bebas-neue">JAPAN</h1>
+        </div>
+       
+        <div class="container1"> 
+          <!--
+          <div class="noto-sans-thai input-section">
+            <label for="base-country">Base Country:</label>
+            <input class="noto-sans-thai" type="text" id="base-country" value="Thailand (Baht)" readonly>
+          </div>
+        
+          <div class="noto-sans-thai input-section">
+              <label for="target-country">Target Country:</label>
+              <input class="noto-sans-thai" type="text" id="base-country" value="JAPAN (Yen)" readonly>
+            </div>-->
+
+          <div class="box-b">
+            <div class="input-group noto-sans-thai">
+              <input class="noto-sans-thai" type="number" id="amount" placeholder="THAI">
+            </div>
+            
+            <p></p>
+            <div class="output" >  
+                <div id="result" >JAPAN</div>
+            </div>
+            <p></p>
+              <button class="convert" onclick="convertToYen()" class="noto-sans-thai " style="margin-top: 0.5rem;" >NEXT</button>
+          </div>
+        </div>
+      </div>
+</body>
+
+<!--
+<select class="noto-sans-thai" id="target-country">
+              <option value="USD">America (Dollar)</option>
+              <option value="JPY">Japan (Yen)</option>
+              <option value="RUB">Russia (Ruble)</option>
+              <option value="CNY">China (Yuan)</option>
+              <option value="EUR">France (Euro)</option>
+</select>
+-->
+
+</html>

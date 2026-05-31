@@ -1,0 +1,160 @@
+.bebas-neue {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-thai {
+    font-family: "Noto Sans Thai", serif;
+    font-optical-sizing: auto;
+    font-weight: 0.9;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+/*===========================================================*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/bg_russia.png);
+    background-color: #fff5e0;
+}
+
+.container {
+    position: relative; /* ทำให้ container เป็นจุดอ้างอิง */
+    width: 40rem; /* ความกว้างของบล็อก */
+    height: 22.6rem;
+    background: #141e46;
+    color: #fff5e0;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 1rem #141e46;
+}
+
+.head1 {
+    color: #141e46;
+    padding:  0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    text-shadow: 0rem 0rem 1rem #fff5e0, 0rem 0rem 1rem #fff5e0, 0rem 0rem 1rem #fff5e0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border: none;
+    border-radius: 10rem;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+    color: #fff5e0;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 38.5rem;
+}
+
+.button img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.button:hover {
+    background-color: #141e46;
+}
+
+/*=========================*/
+
+.container1 {
+    position: relative; /* ทำให้ container เป็นจุดอ้างอิง */
+    width: 40rem; /* ความกว้างของบล็อก */
+    height: 18rem;
+    background: #141e46;
+    color: #fff5e0;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 1rem #141e46;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff5e0;
+    background-color: #fff5e0;
+    color: #c70039;
+    border-radius: 50px;
+    font-size: 14px;
+    
+}
+
+::placeholder {
+    color: #c70039;
+    opacity: 1; /* Firefox */
+}
+  
+
+#result {
+    font-size: 14px;
+    color: #c70039;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #fff5e0;
+    border-radius: 50px;
+    background-color: #fff5e0;
+
+}
+
+.circle-image {
+    width: 37px; /* กำหนดขนาดความกว้าง */
+    height: 37px; /* กำหนดขนาดความสูง */
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    overflow: hidden; /* ซ่อนส่วนเกินของรูปภาพ */
+    align-items: center;
+    display: flexbox;
+  }
+
+  .circle-image img {
+    width: 100%; /* ให้รูปภาพเต็มพื้นที่ */
+    height: 100%; /* ให้รูปภาพเต็มพื้นที่ */
+    object-fit: cover; /* ปรับให้รูปภาพแสดงเต็มโดยไม่ผิดสัดส่วน */
+  }
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: "Noto Sans Thai", serif;
+    font-optical-sizing: auto;
+    font-weight: 0.9;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+  
+.convert {
+    font-size: 14px;
+    color: #141e46;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #c70039;
+    border-radius: 50px;
+    background-color: #c70039;
+    font-weight: bold;
+
+}
+

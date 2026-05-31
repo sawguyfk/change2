@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปแกรมเปลี่ยนค่าเงิน</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ไฟล์ตกแต่ง -->
+    <script src="script.js"></script> <!-- เชื่อมไฟล์ js -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div>
+        <div class="head1"> <!-- titled -->
+            <img src="img/logo.png" alt="logo" width="40" height="40" style="padding-right: 0.5rem; padding-bottom: 0.25rem;">
+            <h1 class="bebas-neue">change currency</h1>
+        </div>
+        
+        <div class="container bebas-neue">
+            <a href="P1america.html" class="button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/1920px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="USA Flag">
+                AMERICA
+            </a>
+            <a href="P2japan.html" class="button">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGh1krpJ88BPrPfUg6ngNvr4JkGUoi94H0A&s" alt="JP Flag">
+                JAPAN
+            </a>
+            <a href="P3france.html" class="button">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAOVBMVEX///8AJlTOESYAGk5wfJLedHzNABoAI1LNCSFBSGrWSlX88/QAFkzMABQ5QWaEhpr/+vriho3VQ09w60AhAAABEElEQVR4nO3QRw3AAAwEsHTvyR9sUZzUhw3B1cR0feUMYxtTTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnTpw4ceLEiRMnfzuZYvboyTHH1BJzXveWcj/vGvMBE+jb6hdFhcsAAAAASUVORK5CYII=" alt="FR Flag">
+                France
+            </a>
+            <a href="P4china.html" class="button">
+                <img src="data:image/png;base64,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" alt="CN Flag">
+                China
+            </a>
+            <a href="P5russia.html" class="button">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1920px-Flag_of_Russia.svg.png" alt="FRN Flag">
+                Russia
+            </a>
+        </div>
+    </div>
+    
+</body>
+
+</html>
